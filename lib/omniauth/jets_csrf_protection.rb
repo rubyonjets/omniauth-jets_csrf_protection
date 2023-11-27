@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "jets_csrf_protection/version"
+require_relative "jets_csrf_protection/turbine"
 
 module Omniauth
   module JetsCsrfProtection
